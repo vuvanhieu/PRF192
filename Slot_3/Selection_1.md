@@ -8,11 +8,12 @@ int main(){
     system("cls"); 
     if(3>5){
         printf("Morning\n");
+    }
     printf("Afternoon\n")
     
     //system("pause");
     return 0;
-    }
+
 }
 
 ```
