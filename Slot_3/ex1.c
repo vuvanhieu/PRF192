@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-
+//https://github.com/vuvanhieu/PRF192/tree/main/Slot_3
 int main() {
     system("cls"); // 
 
