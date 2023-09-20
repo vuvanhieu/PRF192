@@ -24,10 +24,10 @@ int main() {
     scanf("%d", &a);
     
     printf("Enter the second integer (b): ");
-    scanf("%d", &b);2
+    scanf("%d", &b);
     
     // Calculate and display the results
-	int sum = sumN2(a, b);
+	floa difference = Difference(a, b);
 	
     int difference = a - b;
     int product = a * b;
