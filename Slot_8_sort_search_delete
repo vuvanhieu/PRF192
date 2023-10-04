@@ -4,8 +4,9 @@
 // Function to perform Bubble Sort
 void bubbleSort(int arr[], int n) {
     int temp;
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
+    int i,j;
+    for (i = 0; i < n - 1; i++) {
+        for (j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
                 // Swap arr[j] and arr[j+1]
                 temp = arr[j];
@@ -19,9 +20,10 @@ void bubbleSort(int arr[], int n) {
 // Function to perform Selection Sort
 void selectionSort(int arr[], int n) {
     int minIndex, temp;
-    for (int i = 0; i < n - 1; i++) {
+    int i,j;
+    for (i = 0; i < n - 1; i++) {
         minIndex = i;
-        for (int j = i + 1; j < n; j++) {
+        for (j = i + 1; j < n; j++) {
             if (arr[j] < arr[minIndex]) {
                 minIndex = j;
             }
@@ -35,7 +37,8 @@ void selectionSort(int arr[], int n) {
 
 // Function to perform Linear Search
 int linearSearch(int arr[], int n, int key) {
-    for (int i = 0; i < n; i++) {
+	int i;
+    for (i = 0; i < n; i++) {
         if (arr[i] == key) {
             return i; // Element found, return its index
         }
@@ -71,7 +74,8 @@ int main() {
     int arr[n];
 
     printf("Enter the elements of the array:\n");
-    for (int i = 0; i < n; i++) {
+    int i;
+    for ( i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
@@ -79,7 +83,7 @@ int main() {
     bubbleSort(arr, n);
 
     printf("Sorted array using Bubble Sort:\n");
-    for (int i = 0; i < n; i++) {
+    for ( i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
@@ -88,7 +92,7 @@ int main() {
     selectionSort(arr, n);
 
     printf("Sorted array using Selection Sort:\n");
-    for (int i = 0; i < n; i++) {
+    for ( i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
@@ -119,13 +123,13 @@ int main() {
 
     if (deleteIndex >= 0 && deleteIndex < n) {
         // Delete element at deleteIndex
-        for (int i = deleteIndex; i < n - 1; i++) {
+        for ( i = deleteIndex; i < n - 1; i++) {
             arr[i] = arr[i + 1];
         }
         n--;
 
         printf("Array after deletion:\n");
-        for (int i = 0; i < n; i++) {
+        for ( i = 0; i < n; i++) {
             printf("%d ", arr[i]);
         }
         printf("\n");
@@ -135,6 +139,5 @@ int main() {
 
     return 0;
 }
-
 
 ```
