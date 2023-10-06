@@ -1,0 +1,25 @@
+```cpp
+#include <stdio.h>
+int main() {
+    int choice, size;
+
+    printf("Enter the size of the integer array: ");
+    scanf("%d", &size);
+
+    int arr[size];
+
+    do {
+        printf("\nMenu:\n");
+        printf("1. Import an integer array\n");
+        printf("2. Perform Selection Sort\n");
+        printf("3. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        
+
+
+} while (choice !=3)
+return 0;
+}
+```
