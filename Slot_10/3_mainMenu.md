@@ -21,7 +21,7 @@ int main() {
         printf("\nMenu:\n");
         printf("1. Input numbers\n");
         printf("2. Display numbers\n");
-        printf("3. Exit\n");
+        printf("0. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
@@ -32,14 +32,14 @@ int main() {
             case 2:
                 display(a, n);
                 break;
-            case 3:
+            case 0:
                 printf("Exiting program.\n");
                 break;
             default:
                 printf("Invalid choice. Please try again.\n");
                 break;
         }
-    } while (choice != 3);
+    } while (choice != 0);
 
     return 0;
 }
