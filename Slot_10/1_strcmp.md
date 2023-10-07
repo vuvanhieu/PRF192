@@ -1,7 +1,7 @@
 Ex1: Cho một chuỗi a = 'HOA" và chuỗi b = " ". 
-a. Hãy sao chép chuỗi a vào chuỗi b và in ra màn hình. 
-b. Ghép chuỗi a với chuỗi " LA" và in ra màn hình
-c. So sánh các chuỗi "HOA"và "LA", "LA"và "HOA", "HOA" và "HOA"
++ a. Hãy sao chép chuỗi a vào chuỗi b và in ra màn hình. 
++ b. Ghép chuỗi a với chuỗi " LA" và in ra màn hình
++ c. So sánh các chuỗi "HOA"và "LA", "LA"và "HOA", "HOA" và "HOA"
 
 Output when input N = -2:
 
