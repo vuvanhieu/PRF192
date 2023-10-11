@@ -1,4 +1,7 @@
 ### Slot 11: Pointer (Con trỏ)
+Test1: Nhập mảng arr các số nguyên sử dụng con trỏ. In lên màn hình hai dòng: dòng 1 là các số chẵn, dòng 2 là các số lẻ
+
+Test2: Nhập mảng arr1, arr2 các số nguyên sử dụng con trỏ. Sau đó gán mảng arr3 bằng tổng hai phần tử của arr1 và arr2. In lên màn hình gồm 3 dòng dữ liệu của arr1, arr2 và arr3.
 
 Ví dụ 4: Nhập mảng arr hai chiều và hiển thị lên màn hình.
 
@@ -30,6 +33,7 @@ int main() {
     system("pause");
     return 0;
 }
+
 
 ```
 
