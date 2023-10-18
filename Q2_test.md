@@ -1,11 +1,5 @@
-Users are required to enter a non-negative 
-integer variables n using the keybroad (STDIN).
-The system displays the sum of the last three even 
-numbers in range from 0 to n.
-Below is an example of how the program will run:
-Enter the value 6 for 'n'
+<img src="Q_test2.png" alt="drawing" style="width:200px; height:100px"/>
 
-<img src="q2.png" alt="drawing" style="width:200px; height:100px"/>
 
 ```cpp
 #include <stdio.h>
