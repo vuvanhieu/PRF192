@@ -1,4 +1,4 @@
-<img src="Q_test2.png" alt="drawing" style="width:200px; height:100px"/>
+<img src="Q_test2.png" alt="drawing" style="width:300px; height:200px"/>
 
 
 ```cpp
